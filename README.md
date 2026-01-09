@@ -2,7 +2,7 @@
 
 Hệ thống tìm trọ sinh viên với kiến trúc **Modular Monolith**, sẵn sàng scale lên **Microservices**.
 
-## 🏗️ Kiến Trúc
+## Kiến Trúc
 
 ```
 com.timtro
@@ -37,7 +37,7 @@ com.timtro
 └── TimTroApplication.java
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Khởi động Infrastructure (Docker)
 
@@ -65,7 +65,7 @@ Hoặc từ IDE (IntelliJ/VSCode).
 - **Swagger UI**: http://localhost:8080/api/swagger-ui.html
 - **Kibana**: http://localhost:5601
 
-## 📦 Tech Stack
+## Tech Stack
 
 | Component | Technology |
 |-----------|------------|
@@ -78,7 +78,7 @@ Hoặc từ IDE (IntelliJ/VSCode).
 | Mapper | MapStruct |
 | Docs | OpenAPI/Swagger |
 
-## 🔗 Event-Driven Communication
+## Event-Driven Communication
 
 ```
 ┌─────────────┐     Event      ┌─────────────┐
@@ -92,7 +92,7 @@ Hoặc từ IDE (IntelliJ/VSCode).
 
 Các module giao tiếp qua **Spring Events** để tránh Circular Dependency.
 
-## 🛠️ Development
+## Development
 
 ### Database
 
@@ -107,6 +107,6 @@ Schema đã có sẵn trong `timTro.sql`. Docker sẽ tự động import khi kh
 5. Tạo DTO trong `dto/`
 6. Tạo Controller trong `web/`
 
-## 📝 License
+## License
 
 MIT
